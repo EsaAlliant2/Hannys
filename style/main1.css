@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Poppins', sans-serif;
+    margin:0;
+}
+
+.container {
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    position:relative;
+    text-align: center;
+    visibility:hidden;
+    width: 20vh;
+}
+
+.container > div {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 20vh;
+}
